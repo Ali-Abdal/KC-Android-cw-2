@@ -1,0 +1,14 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+	 int hight = 170;
+	    if (hight > 160){
+	        System.out.println("can");
+	    }else{  
+	        System.out.println("can't");
+	    }
+	        
+	}
+}
+       
