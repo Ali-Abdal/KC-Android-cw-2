@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/abeezee</item>
+        <item>@font/abril_fatface</item>
+        <item>@font/advent_pro_thin</item>
+        <item>@font/alatsi</item>
+        <item>@font/alegreya_sc</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amethysta</item>
+        <item>@font/amiko_semibold</item>
+        <item>@font/andada</item>
+        <item>@font/arbutus</item>
+        <item>@font/archivo_black</item>
+        <item>@font/average_sans</item>
+        <item>@font/bellota_light</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/radley</item>
+    </array>
+</resources>

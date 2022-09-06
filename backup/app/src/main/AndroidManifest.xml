@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.finalproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Easy Health"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".MessegesAct"
+            android:exported="false" />
+        <activity
+            android:name=".ChatUsers"
+            android:exported="false" />
+        <activity
+            android:name=".Uploadimage"
+            android:exported="false" />
+        <activity
+            android:name=".Shop"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPass"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Hospitals.Hadihos"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Hospitals.Mubarkhos"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Hospitals.Seefhos"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Hospitals.Jaberhos"
+            android:exported="false" />
+        <activity
+            android:name=".ui.Hospitals.Adanhos"
+            android:exported="false"
+            android:label="@string/title_activity_adanhos"
+            android:theme="@style/Theme.FinalProject.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity
+            android:name=".ui.Hospitals.Jahrahos"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorProfile"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.FinalProject.NoActionBar" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".Splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

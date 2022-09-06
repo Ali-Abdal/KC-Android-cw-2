@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F7F7"
+    tools:context=".ui.Home.HomeFragment">
+
+    <TextView
+        android:id="@+id/txtview2"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="365dp"
+        android:layout_marginEnd="94dp"
+        android:fontFamily="@font/radley"
+        android:text="Hospitals"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/hospitalsview"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="399dp"
+        android:layout_marginEnd="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/hos_seef"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="82dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/seef"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txthosname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Seef Hospital"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/hos_mubark"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="86dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/mubark"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txthosname3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Mubark Hospital"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/hos_jaber"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+
+                        android:layout_width="82dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/jaber"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txthosname2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Jaber Hospital"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/hos_jahra"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+
+                        android:layout_width="86dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/aljahra"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txthosname4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Al-Jahra Hospital"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/hos_hadi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+
+                        android:layout_width="86dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/hadi"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txthosname5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Hadi Hospital"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/hos_adan"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+
+                        android:layout_width="86dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/adan"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txthosname6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Adan Hospital"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="171dp"
+        android:layout_marginEnd="95dp"
+        android:fontFamily="@font/radley"
+        android:text="Doctors"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <HorizontalScrollView
+        android:id="@+id/doctorsview"
+        android:layout_width="wrap_content"
+        android:layout_height="158dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="0dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/doc_andrew"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="71dp"
+                        android:layout_height="71dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/andrew"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txtdrname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Dr. Andrew"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtdrpro"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Neurologist"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="8sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/doc_amelia"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="71dp"
+                        android:layout_height="71dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/amelia"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txtdrname2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Dr. Amelia"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtdrpro2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Dermatologists"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="8sp" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/doc_john"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+                    <ImageView
+
+                        android:layout_width="71dp"
+                        android:layout_height="71dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/john"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+                    <TextView
+                        android:id="@+id/txtdrname3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Dr. John"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtdrpro3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Anesthesiologists"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+
+                android:layout_marginStart="27dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/doc_lucas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="71dp"
+                        android:layout_height="71dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/lucas"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txtdrname4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Dr. Lucas"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtdrpro4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Cardiologists"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+
+                android:layout_height="150dp"
+                android:layout_marginStart="27dp"
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/doc_michael"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="71dp"
+                        android:layout_height="71dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/michael"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txtdrname5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Dr. Michael"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtdrpro5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Psychiatrists"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="27dp"
+
+                android:elevation="10dp"
+                app:cardBackgroundColor="#EDEDED"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:id="@+id/doc_william"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="71dp"
+                        android:layout_height="71dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/william"
+                        app:shapeAppearanceOverlay="@style/Circular">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/txtdrname6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+
+                        android:text="Dr. William"
+                        android:textAlignment="center"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/txtdrpro6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="@font/radley"
+                        android:text="Pathologists"
+                        android:textAlignment="center"
+                        android:textColor="#000000"
+                        android:textSize="8sp" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="185dp"
+        android:layout_height="124dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/updateimg" />
+
+    <ImageView
+        android:id="@+id/Shopbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24" />
+
+</RelativeLayout>
